@@ -1,0 +1,29 @@
+body {
+background-color: chartreuse;
+}
+h1 {
+  color: blue;
+  margin-left: 500px;
+}
+h2 {
+  color: blue;
+}
+h3 {
+  color: blue;
+}
+picture {
+  margin-left: 500px;
+}
+#events {
+  margin-left: 20px;
+}
+#startseite {
+  margin-left: 20px;
+}
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
