@@ -5,6 +5,10 @@ body {
       color: blue;
       margin-left: 500px;
     }
+    [href] {
+      background: rgb(22, 7, 235);
+      color: white;
+    }
     h2 {
       color: rgb(0, 60, 255);
     }
@@ -42,3 +46,19 @@ body {
     #test_drehen {
         transform: rotate(330deg);
     }
+
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation-name: example;
+      animation-duration: 8s;
+    }
+    
+    @keyframes example {
+      from {background-color: red;}
+      to {background-color: yellow;}
+    }
+
+
+   
