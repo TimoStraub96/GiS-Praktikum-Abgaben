@@ -44,8 +44,8 @@ body {
     }
     
     p {
-        font-family: 'Fruktur', cursive;
-        font-family: 'Roboto', sans-serif;
+      font-family: 'Fruktur', cursive;
+      font-family: 'Roboto', sans-serif;
     }
     a:hover {
         background-color: crimson;
@@ -59,23 +59,26 @@ body {
         transform: rotate(330deg);
     }
 
+    #example:hover {
+      animation: example 8s ease-in-out;
+    }
+
     div {
       width: 100px;
       height: 100px;
       background-color: red;
-      animation-name: example;
-      animation-duration: 8s;
     }
+    
+    
     
     @keyframes example {
       from {background-color: red;}
       to {background-color: yellow;}
     }
 
-    @media (min-width: 50em) {
-      article {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+    @media (max-width: 600px) {
+      #portal {
+        width: 50%;
       }
     }
 
