@@ -4,6 +4,7 @@ namespace testNameSpace {
     const display: HTMLInputElement = <HTMLInputElement>document.querySelector("#display");
     const Eintragen: HTMLButtonElement = <HTMLButtonElement>document.querySelector("Eintragen");
     const Laden: HTMLButtonElement = <HTMLButtonElement>document.querySelector("Laden");
+    const Löschen: HTMLButtonElement = <HTMLButtonElement>document.querySelector("Löschen");
 
     const tr = document.createElement("tr");
     const td = document.createElement("td");
