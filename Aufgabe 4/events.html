@@ -4,19 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <title>Events in Furtwangen</title>
+    <script src="Script.js" defer></script>
+    <link rel="style" type="text/css" href="style.css">
 </head>
 
 <body>
-    <input id="input-interpret" type="text" name="interpret" placeholder="Interpret" />
-    <input id="input-price" type="number" name="price" placeholder="Price" />
-    <button id="Eintragen">Speichern</button>
-    <button id="Laden">Laden</button>
+    <h1>Übersicht der Events in Furtwangen</h1>
+    <form id="InviteForm">
+    <input id="inputInterpret" type="text" name="Interpret" placeholder="Interpret" />
+    <input id="inputPrice" type="number" name="Preis" placeholder="Preis" />
+    <button onclick="displayDate()" id="machEtwas">Speichern</button>
+    <button id="Anpassen">Anpassen</button>
     <button id="Löschen">Löschen</button>
+
+    <table id="Tabelle">
+        <tr id="TableRow" onclick="">
+            <th>Interpret</th>
+            <th>Preis</th>
+        
+        </tr>
+    </table>
+
+    <p id="demo"></p>
     <div id="display"></div>
-    <h2>Events in Furtwangen</h2>
+    </form>
+    <h2>Bitte Neue Events eintragen</h2>
 </body>
 
 </html>

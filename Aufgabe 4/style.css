@@ -1,4 +1,19 @@
-.container {
-  margin: auto;
-  max-width: 900px;
+#display{
+  border: 2px solid black;
+  padding: 10px;
+}
+
+h6{
+  color: red;
+}
+
+#display div{
+  border: 2px solid rgb(0, 255, 64);
+  margin: 10px;
+  padding: 10px;
+}
+
+#display div::after{
+  content: "\00a0\00a0\00a0\00a0<= Child-Div-Element";
+  color: rgb(81, 255, 0);
 }
