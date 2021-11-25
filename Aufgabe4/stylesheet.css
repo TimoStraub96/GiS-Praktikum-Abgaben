@@ -1,0 +1,52 @@
+#table{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    translate: 825px;
+}
+#Speichern_Button {
+
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    transform: 750px;
+}
+
+#form {
+    transform: 750px;
+}
+
+#Speichern_Button {
+    translate: 660px;
+}
+
+#Interpret {
+    translate: 850px;
+}
+
+#price {
+    translate: 490px;
+}
+
+#Mail {
+    translate: 750px;
+}
+label {
+    translate: 750px;
+}
+body {
+    background-color: seagreen;
+ }
+
+h1{
+    color: rgb(0, 0, 5);
+    translate: 750px;
+}
+#mail {
+    height: 750px;
+}
+
+h2{
+    color:rgb(0, 0, 5);
+    translate: 680px;
+}
+
