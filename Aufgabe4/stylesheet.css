@@ -1,0 +1,30 @@
+#table{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+#Speichern_Button {
+
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+body {
+    background-color: seagreen;
+ }
+
+h1{
+    color: rgb(0, 0, 5);
+   
+}
+#mail {
+    height: 750px;
+}
+
+h2{
+    color:rgb(0, 0, 5);
+    
+}
+
