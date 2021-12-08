@@ -6,11 +6,11 @@ const port = 3000;
 const server = http.createServer((request, response) => {
     response.statusCode = 200;
     response.setHeader("Content-Type", "text/plain");
-    response.setHeader("Access-Control-Allow-Origin", "*"); //Erlaubt Zugriff
-    //Routing -> Pfade definieren
-    let url = new URL(request.url || "", `http://${request.headers.host}`); //Url element
-    switch (url.pathname) { //Pfad wird gesucht
-        case "/": //Startpunkt des Servers, Mutepfad
+    response.setHeader("Access-Control-Allow-Origin", "*"); 
+    
+    let url = new URL(request.url || "", `http://${request.headers.host}`);
+    switch (url.pathname) { 
+        case "/": 
             response.write("Server erreichbar");
             break;
         case "/convertDate":
@@ -25,12 +25,12 @@ const server = http.createServer((request, response) => {
             }
             break;
         default:
-            response.statusCode = 404; //STandartresponse, wenn der Pfad nicht gefunden wird
+            response.statusCode = 404; 
             break;
     }
-    response.end(); //Response wird abgeschickt
+    response.end();
 });
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}`);
 });
-//# sourceMappingURL=node.js.map
+
