@@ -1,3 +1,3 @@
 # GiS-Praktikum-Abgaben
-Abgaben für das GiS Praktikum
-Link zu meiner ersten Abgabe: https://timostraub96.github.io/GiS-Praktikum-Abgaben/Aufgabe1/index.html
+Aufgabe 7:
+Link zur Website: https://timostraub96.github.io/GiS-Praktikum-Abgaben/Aufgabe7/index.html
