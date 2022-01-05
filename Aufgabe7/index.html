@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="travel, culture, events">
+    <script src="client/client.js" defer></script>
+
+    <title>Events in Furtwangen</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="heading">Events in Furtwangen</h1>
+        </header>
+    <main>
+        <div id="event-input-fields">
+            <form id="event-form">
+                <div id="input-row1">
+                <input id="artist" type="text" placeholder="Name des Künstlers" required>
+                <input id="price" type="number" required>
+            </div>
+            <input id="date" type="datetime-local" required>
+            <br>
+            </form>
+        </div>
+        <div class="button-div">
+            <button id="submit" type="submit">Eingabe</button>
+        </div>
+
+        <div id="event-table">
+            <table id="table">
+                <tr>
+                    <th>Künstler</th>
+                    <th>Datum</th>
+                    <th>Zeit</th>
+                    <th>Preis</th>
+                </tr>
+                </table>
+        </div>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Author: Timo Straub</p>
+        <p><a href="mailto:timo.straub@hs-furtwangen.de">timo.straub@hs-furtwangen.de</a></p>
+    </footer>
+    </body>
+    </html>
